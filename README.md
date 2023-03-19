@@ -29,8 +29,8 @@ Users should be able to:
 ![Desktop-view](./src/images/ss-desktop.png)
 
 ### Links
-- Solution URL: [Solution URL](https://your-solution-url.com)
-- Live Site URL: [Live site URL](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/ShivamManiMaurya/article-preview-component)
+- Live Site URL: [Live site URL](https://shivammanimaurya.github.io/article-preview-component/)
 
 ## My process
 
