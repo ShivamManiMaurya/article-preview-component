@@ -1,0 +1,108 @@
+
+@media only screen and (min-width: 600px) {
+    .App {
+        display: flex;
+        margin-right: 30%;
+        margin-top: 10%;
+        
+    }
+
+    .img-div{
+        margin-left: 33%;
+        margin-top: 5px;
+
+    }
+
+
+    .img-div img {
+        border-radius: 15px 0 0 15px;
+        width: 300px;
+        height: 310px;
+        margin-top: 60px;
+    }
+
+    .lower-content {
+        height: 310px;
+        padding-right: 500px;
+        margin: 80px 195px 0 0;
+        border-radius: 0 15px 15px 0;
+        margin-top: 65px;
+        background-color: #fff;
+        box-shadow: 1px 1px 10px 0.1px hsl(212, 33%, 89%);
+    }
+
+    .content-div {
+        /* padding-left: 2.5rem;
+        padding-top: 2.5rem; */
+        padding-top: 2rem;
+    }
+
+
+    .content-heading {
+        width: 400px;
+        font-size: 22px;
+        letter-spacing: 0.7px;
+    }
+
+    .content-para {
+        width: 400px;
+    }
+
+    .share-div {
+        width: 490px;
+        margin-top: 0;
+
+    }
+
+    .share-content-div {
+        margin-right: 180px;
+    }
+
+    .share-img-div img {
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+
+
+
+
+
+    /************************************** pop up window *********************************************/
+
+
+    .main {
+        margin-top: 0;
+        padding-top: 8px;
+        
+      }
+      
+      .clicked-share-heading {
+        color: hsl(212, 23%, 69%);
+        margin-left: 2.5rem;
+        margin-top: 5px;
+      }
+      
+      
+      .facebook {
+        display: none;
+      }
+      
+      .twitter {
+        display: none;
+      }
+      
+      .pintrest {
+        display: none;
+      }
+      
+      #btn-clicked {
+        margin-left: 168px;
+      }
+      
+
+
+
+      
+
+
+}
