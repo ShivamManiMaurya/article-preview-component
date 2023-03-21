@@ -50,17 +50,25 @@
 
     .share-div {
         width: 490px;
-        margin-top: 0;
+        margin-top: 0.5rem;
 
     }
 
     .share-content-div {
-        margin-right: 180px;
+        margin-right: 11.5625rem;
+    }
+
+    .share-heading {
+        width: 8rem;
     }
 
     .share-img-div img {
         width: 2.7rem;
         height: 2.7rem;
+    }
+
+    .share-btn-div {
+        margin-top: 0.5rem;
     }
 
 
@@ -73,7 +81,7 @@
     .main {
         margin-top: 0;
         padding-top: 8px;
-        
+        transform: translate(10rem, -10rem);
       }
       
       .clicked-share-heading {

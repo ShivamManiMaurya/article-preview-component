@@ -1,19 +1,17 @@
 .App {
   text-align: center;
   font-family: 'Manrope', sans-serif;
+  margin-top: 4rem;
 }
 
 .img-div{
   max-width: 375px;
-  /* margin-left: 37.26%; */
   margin: auto;
   height: 220px;
 }
 
 .img-div img {
   border-radius: 15px 15px 0 0;
-  /* max-width: 100%;
-  max-height: 100%; */
   width: 375px;
   height: 220px;
   object-fit:cover;
@@ -23,10 +21,10 @@
 .lower-content {
   max-width: 375px;
   margin: auto;
-  /* margin-left: 37.26%; */
   border-radius: 0 0 15px 15px;
   text-align: left;
   padding-bottom: 1.5rem;
+  background-color: #fff;
 }
 
 .content-div {
@@ -52,7 +50,7 @@
 .share-div {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 
@@ -65,8 +63,10 @@
 
 .share-content-div {
   line-height: 0.5;
-  margin-right: 4rem;
+  margin-right: 4.5rem;
   margin-top: 0.3rem;
+  margin-left: 1rem;
+  width: 8rem;
 }
 
 .share-content-div h6 {
@@ -80,36 +80,81 @@
   color: hsl(214, 17%, 51%);
 }
 
+
+
+.Footer {
+  display: flex;
+  position: relative;
+  animation: fade 0.7s ease-in-out forwards;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+.share-btn-div {
+  margin-top: 1.8rem;
+  z-index: 99 !important;
+}
+
 .share-btn-div button{
   background-color: hsl(210, 46%, 95%);
   border: none;
   border-radius: 50%;
   width: 2rem;
   height: 2rem;
-  margin-right: 2.5rem;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
+.share-btn-div button:hover {
+  background-color: hsl(214, 17%, 51%);
+}
+
+
+
 .share-btn-div button img {
-  margin-bottom: 3px;
-  margin-left: 1px;
+  padding: 5px 7px 7px 3px;
+  
+}
+
+.share-btn-div img:hover {
+  filter: brightness(500%);
+  
 }
 
 
 .main {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: hsl(217, 19%, 35%);
-  padding-top: 15px;
-  padding-bottom: 15px;
-  justify-content: flex-start;
-  border-radius: 0 0 15px 15px;
-  margin-top: 1.5rem;
+  position: absolute;
+  transform: translate(0, 22%);
+  width: 100%;
+  height: 4.7rem;
+  border-radius: 0 0 1rem 1rem;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
 
 .clicked-share-heading {
   color: hsl(212, 23%, 69%);
   margin-left: 2.5rem;
   margin-top: 5px;
+  width: 5rem;
 }
 
 
@@ -123,16 +168,6 @@
 }
 
 .pintrest {
-  margin-right: 84px;
+  margin-right: 80px;
 }
-
-#btn-clicked {
-  background-color: hsl(214, 17%, 51%);
-  margin-top: 0px
-}
-
-#btn-clicked img {
-  filter: brightness(500%);
-}
-
 

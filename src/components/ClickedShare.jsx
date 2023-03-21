@@ -1,20 +1,10 @@
-import React, { useState } from "react";
-import shareImg from "../images/icon-share.svg";
+import React from "react";
 import facebook from "../images/icon-facebook.svg";
 import twitter from "../images/icon-twitter.svg";
 import pintrest from "../images/icon-pinterest.svg";
 
 
 function ClickedShare(props) {
-
-    const [state, setState] = useState(false);
-
-    function handleClick() {
-        setState(false);
-
-        props.Clicked(state);
-    }
-
 
     return (
         <div className="main">
@@ -29,9 +19,6 @@ function ClickedShare(props) {
             </div>
             <div className="pintrest">
                 <img src={pintrest} alt="pinterest-icon" />
-            </div>
-            <div className="share-btn-div">
-                <button id="btn-clicked" onClick={handleClick}><img src={shareImg} alt="share" /></button>
             </div>
         </div>
 

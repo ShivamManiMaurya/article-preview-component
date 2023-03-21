@@ -4,6 +4,7 @@ import drawerImg from "../images/drawers.jpg";
 import Share from "../components/Share";
 import ClickedShare from "../components/ClickedShare";
 import { useState } from 'react';
+import Button from "../components/Button";
 
 
 
@@ -37,8 +38,10 @@ function App() {
             to help you make any room feel complete.
           </p>
         </div>
-        <div>
-          {flag ? <ClickedShare Clicked={getVal}/> : <Share Clicked={getVal}/>} 
+        <div className='Footer'>
+          <Share />
+          {flag && <ClickedShare /> } 
+          <Button Clicked={getVal}/>
         </div>
       </div>
     </div>
