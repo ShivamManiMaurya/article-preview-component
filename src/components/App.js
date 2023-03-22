@@ -16,7 +16,6 @@ function App() {
 
   function getVal (data) {
     setFlag(data);
-    console.log(flag);
   }
 
 

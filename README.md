@@ -26,15 +26,15 @@ Users should be able to:
 
 | Desktop  | Mobile |
 | ------------- | ------------- |
-| ![Desktop](./ScreenShots/Desktop_ss.png)  | ![Mobile](./ScreenShots/Mobile_ss.png) |
+| ![Desktop](./src/ScreenShots/Desktop_ss.png)  | ![Mobile](./src/ScreenShots/Mobile_ss.png) |
 
 | Desktop Clicked  | Mobile Clicked |
 | ------------- | ------------- |
-| ![Desktop-Clicked](./ScreenShots/Desktop_Clicked_ss.png)  | ![Mobile-Clicked](./ScreenShots/Mobile_Clicked_ss.png) |
+| ![Desktop-Clicked](./src/ScreenShots/Desktop_Clicked_ss.png)  | ![Mobile-Clicked](./src/ScreenShots/Mobile_Clicked_ss.png) |
 
 ### Links
 - [Github URL](https://github.com/ShivamManiMaurya/article-preview-component)
-- [Live-site URL](https://shivammanimaurya.github.io/article-preview-component/)
+- [Live-site URL](https://coruscating-queijadas-e3457a.netlify.app/)
 
 ## My process
 
