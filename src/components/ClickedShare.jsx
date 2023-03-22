@@ -9,7 +9,7 @@ function ClickedShare(props) {
     return (
         <div className="main">
             <div className="clicked-share-heading">
-                <h6>S H A R E</h6>
+                <p>S H A R E</p>
             </div>
             <div className="facebook">
                 <img src={facebook} alt="facebook-icon" />

@@ -81,31 +81,44 @@
     .main {
         margin-top: 0;
         padding-top: 8px;
-        transform: translate(10rem, -10rem);
+        transform: translate(17.65rem, -5rem);
+        width: 17rem;
+        height: 3.7rem;
+        border-radius: 10px;
       }
+
+    .main::after{
+        content: "";
+        background-color: hsl(217, 19%, 35%);
+        width: 2rem;
+        height: 2rem;
+        transform: translate(-6.825rem, 1rem) rotate(45deg);
+        z-index: -1;
+    }
       
       .clicked-share-heading {
-        color: hsl(212, 23%, 69%);
-        margin-left: 2.5rem;
-        margin-top: 5px;
+        width: 5rem;
+        margin-top: 0.5rem;
+        
       }
       
       
       .facebook {
-        display: none;
+        margin-bottom: 0.7rem;
       }
       
       .twitter {
-        display: none;
+        margin-bottom: 0.7rem;
       }
       
       .pintrest {
-        display: none;
+        margin-right: 0rem;
+        margin-bottom: 0.7rem;
       }
       
-      #btn-clicked {
+      /* #btn-clicked {
         margin-left: 168px;
-      }
+      } */
       
 
 

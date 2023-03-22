@@ -24,13 +24,17 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile-view](./src/images/ss-mobile.png)
-![Mobile-clicked-view](./src/images/ss-mobileClicked.png)
-![Desktop-view](./src/images/ss-desktop.png)
+| Desktop  | Mobile |
+| ------------- | ------------- |
+| ![Desktop](./ScreenShots/Desktop_ss.png)  | ![Mobile](./ScreenShots/Mobile_ss.png) |
+
+| Desktop Clicked  | Mobile Clicked |
+| ------------- | ------------- |
+| ![Desktop-Clicked](./ScreenShots/Desktop_Clicked_ss.png)  | ![Mobile-Clicked](./ScreenShots/Mobile_Clicked_ss.png) |
 
 ### Links
-- Solution URL: [Solution URL](https://github.com/ShivamManiMaurya/article-preview-component)
-- Live Site URL: [Live site URL](https://shivammanimaurya.github.io/article-preview-component/)
+- [Github URL](https://github.com/ShivamManiMaurya/article-preview-component)
+- [Live-site URL](https://shivammanimaurya.github.io/article-preview-component/)
 
 ## My process
 
@@ -46,6 +50,9 @@ Users should be able to:
 
 - Changing the html dynamically with react functions
 - Got more familiar with useState function
+- Animation property
+- ::after and ::before property
+- transform property
 
 ## Author
 
